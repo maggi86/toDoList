@@ -1,0 +1,15 @@
+#Add {
+    display: inline-flex;
+}
+ 
+#add {
+    margin: 10px;
+}
+
+label {
+    font-size: 26px;
+}
+
+input[type="checkbox"]:checked+span {
+    text-decoration: line-through;
+}
